@@ -4,4 +4,4 @@
 
 ### B2 cd /tea-shop
 
-### `npm start`
+`npm start`
