@@ -42,32 +42,34 @@ function Cart() {
     setOpen(true);
   };
   return (
-    <div className="relative">
-      <div className="fixed text-white top-[90px] rounded-lg shadow-2xl right-6 bg-primary p-6">
+    <div className="relative tablet:px-5 mobie:px-8 mobie:py-2">
+      <div className="laptop:fixed laptop:top-[90px] laptop:right-6 tablet:text-white tablet:rounded-lg tablet:shadow-2xl tablet:bg-primary p-5 tablet:w-[30%] tablet:my-4 mobie:w-[100%] float-right">
         <p className="uppercase text-left">
           Tổng Tiền: <span className="font-bold">{totalPrice}đ</span>{" "}
         </p>
-        <button
-          onClick={continueShopping}
-          className="px-5 py-2 bg-price mt-3 mr-3 rounded-lg hover:opacity-80"
-        >
-          Mua thêm
-        </button>
-        {quantity > 0 ? (
+        <div className="flex mobie:flex-col">
           <button
-            onClick={hanldeOpen}
-            className="px-5 py-2 bg-price mt-3 ml-3 rounded-lg hover:opacity-80"
+            onClick={continueShopping}
+            className="px-2 py-1 bg-price mobie:text-white mt-3  rounded-lg hover:opacity-80"
           >
-            Thanh Toán
+            Mua thêm
           </button>
-        ) : (
-          <button
-            disabled
-            className=" opacity-60 px-5 py-2 bg-price mt-3 ml-3 rounded-lg "
-          >
-            Thanh Toán
-          </button>
-        )}
+          {quantity > 0 ? (
+            <button
+              onClick={hanldeOpen}
+              className="px-2 py-1 bg-price mobie:text-white mt-3 rounded-lg hover:opacity-80"
+            >
+              Thanh Toán
+            </button>
+          ) : (
+            <button
+              disabled
+              className=" opacity-60 px-2 py-1 bg-price mobie:text-white mt-3 rounded-lg "
+            >
+              Thanh Toán
+            </button>
+          )}
+        </div>
       </div>
       {quantity == 0 ? (
         <img
@@ -78,14 +80,16 @@ function Cart() {
       ) : (
         <>
           <TableContainer
-            className="max-w-[800px] min-h-[500px] m-auto my-10"
+            className="laptop:max-w-[800px] m-auto my-10 medium:w-[750px] flex justify-start pl-5 mobie:w-auto"
             component={Paper}
           >
-            <Table sx={{ minWidth: 650 }} aria-label="simple table">
+            <Table sx={{}} aria-label="simple table">
               <TableHead>
                 <TableRow>
                   <TableCell>#</TableCell>
-                  <TableCell align="left">Image</TableCell>
+                  <TableCell className="" align="left">
+                    Image
+                  </TableCell>
                   <TableCell align="left">Name</TableCell>
                   <TableCell align="left">Price</TableCell>
                   <TableCell align="left">Count</TableCell>
@@ -104,7 +108,7 @@ function Cart() {
                     </TableCell>
                     <TableCell align="left">
                       <img
-                        className="w-[75px] h-[75px]"
+                        className="w-[75px] h-[75px] mobie:object-cover"
                         src={require(`./../../asset/image/${each.image01}`)}
                         alt=""
                       />
