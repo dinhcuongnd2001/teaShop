@@ -121,6 +121,156 @@
       "image03": "[detail]-2.jpg",
       "category": "TD",
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ad et est, fugiat repudiandae neque illo delectus commodi magnam explicabo autem voluptates eaque velit vero facere mollitia. Placeat rem, molestiae error obcaecati enim doloribus impedit aliquam, maiores qui minus neque."
+    },
+    {
+      "id": "13",
+      "name": "Trà Búp Lộc Xuân 100GR",
+      "price": "37.000đ",
+      "image01": "[TB]_100.webp",
+      "image02": "[detail]-1.jpg",
+      "image03": "[detail]-2.jpg",
+      "category": "TB",
+      "desc": "Trà Búp Lộc Xuân được hái theo tiêu chuẩn 1 tôm 2 đến 3 lá non liền kề bên dưới tại vùng đất Tân Cương Thái Nguyên, sau khi chế biến xong, trà mang hương thơm cốm tự nhiên đặc trưng của Trà Tân Cương Thái Nguyên, nước trà khi pha màu vàng xanh trong, tiền vị chát đậm đà hơn những dòng trà khác, hậu vị ngọt sâu. Trà Búp Lộc Xuân phù hợp với những người gó gu trà đậm đà, thích trà có nhiều vị chát mà phải có hậu ngọt khi thưởng thức. Đảm bảo Trà sạch 100%, không hương liệu, không phẩm màu."
+    },
+    {
+      "id": "14",
+      "name": "Trà Búp Lộc Xuân 250GR",
+      "price": "87.500đ",
+      "image01": "[TB]_200.webp",
+      "image02": "[detail]-1.jpg",
+      "image03": "[detail]-2.jpg",
+      "category": "TB",
+      "desc": "Trà Búp Lộc Xuân được hái theo tiêu chuẩn 1 tôm 2 đến 3 lá non liền kề bên dưới tại vùng đất Tân Cương Thái Nguyên, sau khi chế biến xong, trà mang hương thơm cốm tự nhiên đặc trưng của Trà Tân Cương Thái Nguyên, nước trà khi pha màu vàng xanh trong, tiền vị chát đậm đà hơn những dòng trà khác, hậu vị ngọt sâu. Trà Búp Lộc Xuân phù hợp với những người gó gu trà đậm đà, thích trà có nhiều vị chát mà phải có hậu ngọt khi thưởng thức. Đảm bảo Trà sạch 100%, không hương liệu, không phẩm màu."
+    },
+    {
+      "id": "15",
+      "name": "Chè Búp Lộc Xuân 500GR",
+      "price": "175.000đ",
+      "image01": "[TB]_300.webp",
+      "image02": "[detail]-1.jpg",
+      "image03": "[detail]-2.jpg",
+      "category": "TB",
+      "desc": "Trà Búp Lộc Xuân được hái theo tiêu chuẩn 1 tôm 2 đến 3 lá non liền kề bên dưới tại vùng đất Tân Cương Thái Nguyên, sau khi chế biến xong, trà mang hương thơm cốm tự nhiên đặc trưng của Trà Tân Cương Thái Nguyên, nước trà khi pha màu vàng xanh trong, tiền vị chát đậm đà hơn những dòng trà khác, hậu vị ngọt sâu. Trà Búp Lộc Xuân phù hợp với những người gó gu trà đậm đà, thích trà có nhiều vị chát mà phải có hậu ngọt khi thưởng thức. Đảm bảo Trà sạch 100%, không hương liệu, không phẩm màu."
+    },
+    {
+      "id": "16",
+      "name": "Trà Oolong Lộc Hương Tép 10gr",
+      "price": "9.000đ",
+      "image01": "[TOL]_1.webp",
+      "image02": "[detail]-1.jpg",
+      "image03": "[detail]-2.jpg",
+      "category": "TOL",
+      "desc": "Trà Oolong Lộc Hương được sản xuất từ giống cây Trà Olong Tứ Quý theo quy trình làm trà khắt khe từ khâu nguyên liệu đến sản xuất thành phẩm. Trà Olong Lộc Hương có ngoại hình tròn đều, trà khi pha có màu nước xanh vàng sáng, hương trà rất thơm, giống mùi hương của các loài hoa quyện vào nhau, trà có tiền chát rất dịu nhẹ và hậu ngọt sâu đậm đà hơn so với những loại trà Oolong khác. Vậy nên loại trà này phù hợp với người có gu uống trà Oolong phải có vị đượm và sâu trong khoang miệng tới cổ họng"
+    },
+    {
+      "id": "17",
+      "name": "Trà ô long Quý Long 100gr",
+      "price": "120.000đ",
+      "image01": "[TOL]_2.webp",
+      "image02": "[detail]-1.jpg",
+      "image03": "[detail]-2.jpg",
+      "category": "TOL",
+      "desc": "Trà Oolong Quý Long được lấy nguyên liệu là búp trà giống Oolong Thuần để sản xuất theo dây chuyền công nghệ Đài Loan. Với giống trà tốt và quy trình sản xuất tốt để cho ra sản phẩm trà Oolong Quý Long có viên trà tròn đều tăm tắp, trà mang hương thơm của những loài hoa, phảng phất mùi thơm ngọt như cỏ non, rất thơm, nước trà xanh vàng và sáng, vị trà chát rất dịu nhẹ, hậu vị ngọt trà, mềm nước. Phù hợp với những người sành trà Oolong, rất kỹ trong việc lựa chọn trà Oolong để thưởng thức."
+    },
+    {
+      "id": "18",
+      "name": "Trà Oolong Lộc Hương 250gr (25 Tép Nhỏ 10gr)",
+      "price": "225.000đ",
+      "image01": "[TOL]_3.webp",
+      "image02": "[detail]-1.jpg",
+      "image03": "[detail]-2.jpg",
+      "category": "TOL",
+      "desc": "Trà Oolong Lộc Hương được sản xuất từ giống cây Trà Olong Tứ Quý theo quy trình làm trà khắt khe từ khâu nguyên liệu đến sản xuất thành phẩm. Trà Olong Lộc Hương có ngoại hình tròn đều, trà khi pha có màu nước xanh vàng sáng, hương trà rất thơm, giống mùi hương của các loài hoa quyện vào nhau, trà có tiền chát rất dịu nhẹ và hậu ngọt sâu đậm đà hơn so với những loại trà Oolong khác. Vậy nên loại trà này phù hợp với người có gu uống trà Oolong phải có vị đượm và sâu trong khoang miệng tới cổ họng"
+    },
+    {
+      "id": "19",
+      "name": "Trà Oolong Quý Long 250gr (25 Tép Nhỏ 10gr)",
+      "price": "350.000đ",
+      "image01": "[TOL]_4.webp",
+      "image02": "[detail]-1.jpg",
+      "image03": "[detail]-2.jpg",
+      "category": "TOL",
+      "desc": "Trà Oolong Lộc Hương được sản xuất từ giống cây Trà Olong Tứ Quý theo quy trình làm trà khắt khe từ khâu nguyên liệu đến sản xuất thành phẩm. Trà Olong Lộc Hương có ngoại hình tròn đều, trà khi pha có màu nước xanh vàng sáng, hương trà rất thơm, giống mùi hương của các loài hoa quyện vào nhau, trà có tiền chát rất dịu nhẹ và hậu ngọt sâu đậm đà hơn so với những loại trà Oolong khác. Vậy nên loại trà này phù hợp với người có gu uống trà Oolong phải có vị đượm và sâu trong khoang miệng tới cổ họng"
+    },
+    {
+      "id": "20",
+      "name": "Hộp Hồng Phúc - Trà Ô Long Lộc Hương 600gr",
+      "price": "710.000đ",
+      "image01": "[HHP]_1.webp",
+      "image02": "[HHP]_1.1.jpg",
+      "image03": "[HHP]_1.2.jpg",
+      "category": "HHP",
+      "desc": "Hộp Trà Hồng Phúc - Trà Ô Long Lộc Hương 600gr màu đỏ, lõi bên trong là giấy mỹ thuật màu đen có kích thước 30 x 19 x 8,5 cm. Hộp gồm 1 hộp lớn, 3 hộp nhỏ, 3 gói Trà Ô Long Lộc Hương 200gr và 1 túi xách giấy bên ngoài. Đây là mẫu hộp trà được lựa chọn nhiều nhất để biếu tặng đối tác, người thân, khách quý..."
+    },
+    {
+      "id": "21",
+      "name": "Hộp Hồng Phúc - Trà Ô Long Quý Long 600gr",
+      "price": "1010.000đ",
+      "image01": "[HHP]_2.webp",
+      "image02": "[HHP]_2.1.jpg",
+      "image03": "[HHP]_2.2.jpg",
+      "category": "HHP",
+      "desc": "Hộp Trà Hồng Phúc - Trà Ô Long Lộc Hương 600gr màu đỏ, lõi bên trong là giấy mỹ thuật màu đen có kích thước 30 x 19 x 8,5 cm. Hộp gồm 1 hộp lớn, 3 hộp nhỏ, 3 gói Trà Ô Long Lộc Hương 200gr và 1 túi xách giấy bên ngoài. Đây là mẫu hộp trà được lựa chọn nhiều nhất để biếu tặng đối tác, người thân, khách quý..."
+    },
+    {
+      "id": "22",
+      "name": "Hộp Hồng Phúc - Trà Shan Tuyết Hà Giang 270gr",
+      "price": "668.000đ",
+      "image01": "[HHP]_3.webp",
+      "image02": "[HHP]_1.1.jpg",
+      "image03": "[HHP]_1.2.jpg",
+      "category": "HHP",
+      "desc": "Hộp Trà Hồng Phúc - Trà Shan Tuyết Hà Giang 270gr màu đỏ, lõi bên trong là giấy mỹ thuật màu đen có kích thước 30 x 19 x 8,5 cm. Hộp gồm 1 hộp lớn, 3 hộp nhỏ, 27 gói Trà Shan Tuyết Hà Giang 10gr và 1 túi xách giấy bên ngoài. Đây là mẫu hộp trà được lựa chọn nhiều nhất để biếu tặng đối tác, người thân, khách quý..."
+    },
+    {
+      "id": "22",
+      "name": "Hộp Hồng Phúc - Trà Bạch Shan Suối Giàng 270gr",
+      "price": "1046.000đ",
+      "image01": "[HHP]_4.webp",
+      "image02": "[HHP]_4.1.jpg",
+      "image03": "[HHP]_4.2.jpg",
+      "category": "HHP",
+      "desc": "Hộp Trà Hồng Phúc - Trà Shan Tuyết Hà Giang 270gr màu đỏ, lõi bên trong là giấy mỹ thuật màu đen có kích thước 30 x 19 x 8,5 cm. Hộp gồm 1 hộp lớn, 3 hộp nhỏ, 27 gói Trà Shan Tuyết Hà Giang 10gr và 1 túi xách giấy bên ngoài. Đây là mẫu hộp trà được lựa chọn nhiều nhất để biếu tặng đối tác, người thân, khách quý..."
+    },
+    {
+      "id": "23",
+      "name": "Khay Tre 601 Độc Ẩm",
+      "price": "290.000đ",
+      "image01": "[DC]_1.webp",
+      "image02": "[DC]_2.webp",
+      "image03": "[DC]_3.webp",
+      "category": "DCTT",
+      "desc": "Kích thước: 28 x 18 x 6 cm"
+    },
+    {
+      "id": "24",
+      "name": "Khay Tre 611 Tam Ẩm",
+      "price": "420.000đ",
+      "image01": "[DC]_2.webp",
+      "image02": "[DC]_3.webp",
+      "image03": "[DC]_4.webp",
+      "category": "DCTT",
+      "desc": "Kích thước: 32 x 22 x 6 cm"
+    },
+    {
+      "id": "25",
+      "name": "Khay Tre 605 Tứ Ẩm",
+      "price": "590.000đ",
+      "image01": "[DC]_3.webp",
+      "image02": "[DC]_2.webp",
+      "image03": "[DC]_1.webp",
+      "category": "DCTT",
+      "desc": "Kích thước: 37 x 26 x 6 cm"
+    },
+    {
+      "id": "26",
+      "name": "Khay Tre 628 Đại Ẩm",
+      "price": "800.000đ",
+      "image01": "[DC]_4.webp",
+      "image02": "[DC]_3.webp",
+      "image03": "[DC]_1.webp",
+      "category": "DCTT",
+      "desc": "Kích thước: 45 x 27.5 x 6.5 cm"
     }
   ]
 }

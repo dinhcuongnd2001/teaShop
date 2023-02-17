@@ -15,7 +15,7 @@ function Product({ product }) {
     navigate("../productDetail", { state: { product: product } });
   };
   return (
-    <div className="border-2 p-3 rounded-md flex flex-col justify-between">
+    <div className="border-2 p-3 rounded-md flex flex-col justify-between items-center">
       <div className="">
         <img
           onClick={() => handleShow(product)}
@@ -30,7 +30,7 @@ function Product({ product }) {
           {product.name}
         </p>
       </div>
-      <div className="">
+      <div className="flex flex-col w-full">
         <p className="text-base text-price font-bold text-left ml-3 mb-3">
           {product.price}
         </p>

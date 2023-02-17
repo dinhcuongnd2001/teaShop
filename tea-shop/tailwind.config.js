@@ -11,6 +11,26 @@ module.exports = {
       boxShadow: {
         header: "5px 5px 15px -5px #38761d",
       },
+      screens: {
+        mobie: "315px",
+
+        tablet: "640px",
+        // => @media (min-width: 640px) { ... }
+
+        medium: "800px",
+
+        laptop: "1280px",
+        // => @media (min-width: 1024px) { ... }
+      },
+      keyframes: {
+        dropDown: {
+          "0%": { transform: "translateY(-100%)" },
+          "100%": { transform: "translateY(0%)" },
+        },
+      },
+      animation: {
+        dropDown: "dropDown .4s ease-in-out ",
+      },
     },
   },
   plugins: [],

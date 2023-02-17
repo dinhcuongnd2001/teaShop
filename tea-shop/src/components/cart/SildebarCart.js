@@ -36,18 +36,18 @@ function SidebarCart({ open, handleClose }) {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <div className="w-[30%] h-full bg-white float-right border-none overflow-y-scroll pb-7">
+        <div className="laptop:w-[30%] h-full bg-white float-right border-none overflow-y-scroll pb-7 medium:w-[40%] tablet:w-[50%] mobie:w-[100%] mobie:pb-14">
           <HighlightOffIcon
             onClick={handleClose}
             className="absolute right-5 top-5 cursor-pointer"
           />
 
           {quantity > 0 ? (
-            <div className="mt-8 ">
+            <div className="mt-[42px]">
               {cart?.map((item) => (
                 <div key={item.id} className="mb-4 flex border-b-4">
                   <img
-                    className="w-[100px] h-[100px]"
+                    className="laptop:w-[100px] laptop:h-[100px] medium:w-[130px] medium:h-[130px] tablet:w-[150px] tablet:h-[150px] mobie:w-[180px] mobie:h-[180px]"
                     src={require(`./../../asset/image/${item.image01}`)}
                     alt="#error"
                   />
@@ -79,13 +79,13 @@ function SidebarCart({ open, handleClose }) {
               ))}
             </div>
           ) : (
-            <div className="mt-10 flex justify-center ">
+            <div className="mt-10 flex justify-center">
               <p className="mr-3">Giỏ hàng của bạn đang trống</p>
               <SentimentVeryDissatisfiedIcon></SentimentVeryDissatisfiedIcon>
             </div>
           )}
 
-          <div className="w-[30%] absolute bottom-0 py-4 px-10 bg-primary text-white flex items-center justify-around">
+          <div className="laptop:w-[30%] medium:w-[40%] tablet:w-[50%] mobie:w-[100%] absolute bottom-0 py-4 px-10 bg-primary text-white flex items-center justify-around">
             <p>Tổng Phí: {totolPrice} Đ</p>
             <button
               onClick={handleClick}
