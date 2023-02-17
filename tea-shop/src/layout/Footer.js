@@ -40,7 +40,7 @@ function Footer() {
               Xóm Nam Hưng, Xã Tân Cương, TP.Thái Nguyên
             </p>
             <p className="mb-6">Cửa hàng tại Hà Nội:</p>
-            <p className="laptop:w-[470px] text-sm">
+            <p className="laptop:w-[360px] text-sm">
               ○ Số 189 Giáp Nhất, Thượng Đình, Thanh Xuân, Hà Nội (Đối diện Ga
               Láng)
               <span className="italic">
