@@ -10,9 +10,6 @@ import DehazeIcon from "@mui/icons-material/Dehaze";
 function Header() {
   const [open, setOpen] = useState(false);
   const [dropdown, setDropdown] = useState(false);
-  const [documentWidth, setDocumentWidth] = useState(
-    document.documentElement.clientWidth
-  );
   const showMenu = useRef();
   const UlRef = useRef(null);
   const DehazeIconRef = useRef(null);
@@ -36,8 +33,7 @@ function Header() {
   useEffect(() => {
     function handleResize() {
       const newWidth = document.documentElement.clientWidth;
-      setDocumentWidth(newWidth);
-      if (dropdown && newWidth > 640) {
+      if (dropdown && newWidth > 600) {
         setDropdown(false);
       }
     }
