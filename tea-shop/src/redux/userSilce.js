@@ -1,5 +1,4 @@
 // manage action add to card, remove product, checkout...
-import React from "react";
 import { createSlice } from "@reduxjs/toolkit";
 
 const userSlice = createSlice({

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "@mui/material/Modal";
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import userSlice from "../../redux/userSilce";
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
@@ -44,7 +44,7 @@ function SidebarCart({ open, handleClose }) {
         aria-describedby="modal-modal-description"
         className="flex justify-center items-center"
       >
-        <div className="w-[40%] h-[55%] shadow-primary bg-white float-right border-none p-7 relative rounded-lg">
+        <div className="tablet:w-[460px] shadow-primary bg-white float-right border-none p-7 relative rounded-lg mobie:w-[95%]">
           <HighlightOffIcon
             onClick={handleClose}
             className="absolute right-5 top-5 cursor-pointer"
@@ -57,7 +57,7 @@ function SidebarCart({ open, handleClose }) {
           >
             {({ errors, touched }) => (
               <Form className="form">
-                <div className="w-[80%] flex items-center justify-between mb-4">
+                <div className="tablet:w-[80%] flex tablet:flex-row tablet:items-center tablet:justify-between mb-4 mobie:flex-col mobie:items-start">
                   <label className="font-semibold tracking-wider" htmlFor="">
                     Name
                   </label>
@@ -83,7 +83,7 @@ function SidebarCart({ open, handleClose }) {
                   </div>
                 </div>
 
-                <div className="w-[80%] flex items-center justify-between mb-4">
+                <div className="tablet:w-[80%] flex tablet:flex-row tablet:items-center tablet:justify-between mb-4  mobie:flex-col mobie:items-start">
                   <label className="font-semibold tracking-wider" htmlFor="">
                     Address
                   </label>
@@ -109,7 +109,7 @@ function SidebarCart({ open, handleClose }) {
                   </div>
                 </div>
 
-                <div className="w-[80%] flex items-center justify-between mb-4">
+                <div className="tablet:w-[80%] tablet:flex tablet:flex-row tablet:items-center tablet:justify-between mb-4  mobie:flex-col mobie:items-start">
                   <label className="font-semibold tracking-wider" htmlFor="">
                     Phone
                   </label>
@@ -135,7 +135,7 @@ function SidebarCart({ open, handleClose }) {
                   </div>
                 </div>
 
-                <div className="w-[80%] flex items-center justify-between mb-4">
+                <div className="tablet:w-[80%] flex tablet:flex-row tablet:items-center tablet:justify-between mb-4 mobie:flex-col">
                   <label className="font-semibold tracking-wider" htmlFor="">
                     Note
                   </label>
@@ -151,7 +151,7 @@ function SidebarCart({ open, handleClose }) {
                 </div>
 
                 <button
-                  className="py-2 px-3 bg-primary rounded-md text-white"
+                  className="py-2 px-3 bg-primary rounded-md text-white mobie:w-full"
                   type="submit"
                 >
                   Submit

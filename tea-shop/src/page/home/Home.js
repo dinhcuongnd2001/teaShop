@@ -1,12 +1,11 @@
-import React, { useRef } from "react";
+import React from "react";
 import "./home.css";
-import { getAllProducts, getCart, getQuantity } from "./../../redux/selector";
-import { useSelector, useDispatch } from "react-redux";
+import { getAllProducts } from "./../../redux/selector";
+import { useSelector } from "react-redux";
 import Product from "../../components/product/Product";
 
 const Home = () => {
   const products = useSelector(getAllProducts);
-  const TeaRef = useRef();
 
   const listTypes = [
     { name: "Trà Móc Câu Đặc Biệt", category: "TMCDB", id: "tea" },

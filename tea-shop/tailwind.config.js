@@ -27,9 +27,14 @@ module.exports = {
           "0%": { transform: "translateY(-100%)" },
           "100%": { transform: "translateY(0%)" },
         },
+        moveOn: {
+          "0%": { transform: "translateY(0%)" },
+          "100%": { transform: "translateY(-100%)" },
+        },
       },
       animation: {
         dropDown: "dropDown .4s ease-in-out ",
+        moveOn: "moveOn .4s ease-in-out",
       },
     },
   },
