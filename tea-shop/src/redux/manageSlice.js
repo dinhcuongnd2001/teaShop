@@ -24,10 +24,10 @@ export default manageSlice;
 export const fetchProducts = createAsyncThunk(
   "manage/fetchProducts",
   async () => {
-    const res = await axios.get("http://localhost:8080/product");
-    // const res = await axios.get(
-    //   "https://6320b80e82f8687273a64e83.mockapi.io/api/products"
-    // );
+    // const res = await axios.get("http://localhost:8080/product");
+    const res = await axios.get(
+      "https://6320b80e82f8687273a64e83.mockapi.io/api/tea"
+    );
     return res.data;
   }
 );
